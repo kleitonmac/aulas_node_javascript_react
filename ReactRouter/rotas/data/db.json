@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "3",
+      "name": "Headphones",
+      "price": 199.99,
+      "description": "Fones de ouvido com cancelamento de ruído para uma experiência de áudio imersiva."
+    },
+    {
+      "id": "112b",
+      "name": "blazer rs",
+      "price": "390000",
+      "description": "Carro esportivo com desempenho excepcional e design elegante."
+    },
+    {
+      "id": "9f71",
+      "name": "rx 9070 xt",
+      "price": "7000",
+      "description": "Placa de vídeo de última geração para jogos e aplicações gráficas intensivas."
+    },
+    {
+      "id": "e28c",
+      "name": "teclado",
+      "price": "110",
+      "description": "Teclado mecânico com iluminação RGB e teclas programáveis."
+    },
+    {
+      "id": "ca89",
+      "name": "mouse",
+      "price": 39.99,
+      "description": "Mouse ergonômico com alta precisão e botões personalizáveis."
+    },
+    {
+      "id": "fdf3",
+      "name": "suporte monitor",
+      "price": 59.9,
+      "description": "Suporte ajustável para monitor, proporcionando melhor ergonomia na estação de trabalho."
+    },
+    {
+      "id": "fc8a",
+      "name": "pasta termica",
+      "price": 10,
+      "description": "Pasta térmica de alta qualidade para melhorar a dissipação de calor em componentes eletrônicos."
+    }
+  ]
+}

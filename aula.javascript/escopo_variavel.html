@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>escopo variavel</title>
+    <script>
+        //3 escopos global , função e bloco
+
+        var serie ="friends"  // escopo global tenho acesso a todos os escopos
+
+        if(true){
+            var serie2 = 'round 6'
+            document.write(serie) //escopo de bloco
+        }
+        document.write(serie2)
+        document.write('<br / >') //escopo de bloco cojsigo ver o escopo de funçao e global
+
+
+        function x( ){
+            var serie3 = 'la casa de papel' // escopo de função tenho acesso somente a funçao e a global
+            document.write(serie)
+            document.write(serie2)
+        }
+        x()
+        document.write('<br / >')
+        document.write(serie3)
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

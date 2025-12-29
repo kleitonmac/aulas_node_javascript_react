@@ -1,0 +1,21 @@
+form{
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 900px;
+}
+
+input,
+textarea,
+select{
+   display: flex;
+   margin-top: 0 auto;
+   
+}
+.form {
+  margin-left: 650px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

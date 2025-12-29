@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "3",
+      "name": "Headphones",
+      "price": 199.99,
+      "description": "Fones de ouvido com cancelamento de ruído para uma experiência de áudio imersiva."
+    },
+    {
+      "id": "112b",
+      "name": "blazer rs",
+      "price": "390000"
+    },
+    {
+      "id": "9f71",
+      "name": "rx 9070 xt",
+      "price": "7000"
+    },
+    {
+      "id": "e28c",
+      "name": "teclado",
+      "price": "110"
+    },
+    {
+      "id": "ca89",
+      "name": "mouse",
+      "price": 39.99
+    },
+    {
+      "id": "fdf3",
+      "name": "suporte monitor",
+      "price": 59.9
+    },
+    {
+      "id": "fc8a",
+      "name": "pasta termica",
+      "price": 10
+    }
+  ]
+}
