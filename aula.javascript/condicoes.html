@@ -1,33 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <title>Pilar de abstraçao</title>
   <meta charset="utf-8">
-  <script >
+  <title>Operadores de Comparação</title>
 
-    if(2 == 2) {
-    document.write('entrou dentro do bloco if (verdadeiro)');
+  <script>
+    /*
+    =========================================================
+    ESTRUTURA CONDICIONAL IF / ELSE
+    =========================================================
+    O if executa um bloco de código quando a condição
+    avaliada for VERDADEIRA (true).
+    O else executa um bloco quando a condição for FALSA (false).
+    */
 
+    // Exemplo simples de comparação
+    if (2 == 2) {
+      // Este bloco será executado porque a condição é verdadeira
+      document.write('Entrou dentro do bloco if (verdadeiro)');
+    } else {
+      // Este bloco só executaria se a condição fosse falsa
+      document.write('Entrou dentro do bloco else (falso)');
+    }
 
-    } else{    
-    document.write('entrou dentro do bloco else (falso)');
+    /*
+    =========================================================
+    OPERADORES DE COMPARAÇÃO EM JAVASCRIPT
+    =========================================================
+    Esses operadores são usados para comparar valores
+    e sempre retornam true ou false.
+    */
 
-}
+    // ==  (igual)
+    // Compara apenas o VALOR, não o tipo
+    // Exemplo: 2 == "2" → true
 
+    // === (estritamente igual / idêntico)
+    // Compara VALOR e TIPO
+    // Exemplo: 2 === "2" → false
 
-// vericacações de valores
+    // !=  (diferente)
+    // Compara apenas o valor
+    // Exemplo: 5 != "5" → false
 
-// igual(==) valores da comparação são iguais
-// idêntico(===)valores da comparação são iguais e de mesmo tipo
-// diferente( !=)valores da comparação são diferentes
-// Não idêntico(!==) valores da comparação sao diferentes e do mesmo tipo
-// Menor(<)verificar ser o valor da esquerda e menor que o da direita 
-// Maior(>)verificar ser o valor da esquerda e maior que o da direita 
-// Menor ou igual(<=)verificar ser o valor da esquerda e menor ou igual  ao da direita 
-// Maior ou igual(>=)verificar ser o valor da esquerda e maior ou igual  ao da direita 
+    // !== (estritamente diferente / não idêntico)
+    // Compara valor e tipo
+    // Exemplo: 5 !== "5" → true
+
+    // <  (menor que)
+    // Verifica se o valor da esquerda é menor que o da direita
+    // Exemplo: 3 < 5 → true
+
+    // >  (maior que)
+    // Verifica se o valor da esquerda é maior que o da direita
+    // Exemplo: 10 > 7 → true
+
+    // <= (menor ou igual)
+    // Verifica se o valor da esquerda é menor ou igual ao da direita
+    // Exemplo: 7 <= 7 → true
+
+    // >= (maior ou igual)
+    // Verifica se o valor da esquerda é maior ou igual ao da direita
+    // Exemplo: 8 >= 7 → true
+
+    /*
+    =========================================================
+    BOA PRÁTICA
+    =========================================================
+    Sempre prefira usar === e !==
+    Isso evita erros causados por conversão automática de tipos.
+    */
   </script>
+</head>
 
-
-
-
+<body>
+</body>
 </html>
+s
